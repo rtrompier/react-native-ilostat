@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native-chart/RNChartViewManager.m \
+  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native-chart/RNChartViewManager.h \
+  ../../node_modules/react-native/React/Views/RCTViewManager.h \
+  ../../node_modules/react-native/React/Base/RCTBridgeModule.h \
+  ../../node_modules/react-native/React/Base/RCTDefines.h \
+  ../../node_modules/react-native/React/Base/RCTConvert.h \
+  ../../node_modules/react-native/React/Layout/Layout.h \
+  ../../node_modules/react-native/React/Views/RCTAnimationType.h \
+  ../../node_modules/react-native/React/Views/RCTBorderStyle.h \
+  ../../node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  ../../node_modules/react-native/React/Base/RCTLog.h \
+  ../../node_modules/react-native/React/Base/RCTAssert.h \
+  ../../node_modules/react-native/React/Views/RCTPointerEvents.h \
+  ../../node_modules/react-native/React/Views/RCTComponent.h \
+  ../../node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  ../../node_modules/react-native/React/Base/RCTBridge.h \
+  ../../node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  ../../node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  ../../node_modules/react-native/React/Base/RCTInvalidating.h \
+  ../../node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native-chart/RNChartView.h \
+  ../../node_modules/react-native/React/Views/RCTView.h
