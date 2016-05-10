@@ -70,8 +70,9 @@ class DetailOptions extends React.Component {
         this.setState({
             checkListOption
         });
-
-        //Actions.detail();
+        
+        Actions.pop();
+        Actions.refresh();
     }
 
     renderOption(option, selected, onSelect, index) {
