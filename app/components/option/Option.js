@@ -1,7 +1,8 @@
 /**
  * Created by rtrompier on 30/03/16.
  */
-import React, {StyleSheet, Text, View, Navigator, TouchableWithoutFeedback} from 'react-native';
+import React, { Component } from 'react';
+import {StyleSheet, Text, View, Navigator, TouchableWithoutFeedback} from 'react-native';
 import TranslationService from '../../services/TranslationService';
 import {RadioButtons} from 'react-native-radio-buttons'
 
@@ -50,6 +51,7 @@ const styles = StyleSheet.create({
 class Option extends React.Component {
     constructor(props) {
         super(props);
+        debugger;
 
         this.options = TranslationService.getLangs();
         let checkListOption = this.options.filter((c) => {
@@ -68,6 +70,11 @@ class Option extends React.Component {
         this.setState({
             checkListOption
         });
+
+        debugger;
+
+        //Actions.pop();
+        //Actions.refresh();
     }
 
     renderOption(option, selected, onSelect, index) {

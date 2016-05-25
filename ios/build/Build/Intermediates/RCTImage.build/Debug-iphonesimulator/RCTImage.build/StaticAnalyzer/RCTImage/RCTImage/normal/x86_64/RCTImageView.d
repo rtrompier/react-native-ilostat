@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Image/RCTImageView.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Image/RCTImageView.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTImageView.m \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTImageView.h \
   ../../React/Views/RCTImageComponent.h \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Image/RCTResizeMode.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTResizeMode.h \
   ../../React/Base/RCTConvert.h ../../React/Layout/Layout.h \
   ../../React/Views/RCTAnimationType.h \
   ../../React/Views/RCTBorderStyle.h \
@@ -14,10 +14,11 @@ dependencies: \
   ../../React/Base/RCTInvalidating.h \
   ../../React/Base/RCTJavaScriptExecutor.h \
   ../../React/Base/RCTEventDispatcher.h \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Image/RCTImageLoader.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTImageLoader.h \
   ../../React/Base/RCTURLRequestHandler.h \
   ../../React/Base/RCTURLRequestDelegate.h \
   ../../React/Base/RCTImageSource.h \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Image/RCTImageUtils.h \
-  ../../React/Base/RCTUtils.h ../../React/Views/UIView+React.h \
-  ../../React/Views/RCTComponent.h
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTImageUtils.h \
+  ../../React/Base/RCTUtils.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTImageBlurUtils.h \
+  ../../React/Views/UIView+React.h ../../React/Views/RCTComponent.h

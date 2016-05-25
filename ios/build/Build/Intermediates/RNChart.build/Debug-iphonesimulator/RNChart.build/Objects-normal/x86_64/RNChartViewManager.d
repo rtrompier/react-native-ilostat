@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native-chart/RNChartViewManager.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native-chart/RNChartViewManager.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native-chart/RNChartViewManager.m \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native-chart/RNChartViewManager.h \
   ../../node_modules/react-native/React/Views/RCTViewManager.h \
   ../../node_modules/react-native/React/Base/RCTBridgeModule.h \
   ../../node_modules/react-native/React/Base/RCTDefines.h \
@@ -19,5 +19,5 @@ dependencies: \
   ../../node_modules/react-native/React/Base/RCTFrameUpdate.h \
   ../../node_modules/react-native/React/Base/RCTInvalidating.h \
   ../../node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native-chart/RNChartView.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native-chart/RNChartView.h \
   ../../node_modules/react-native/React/Views/RCTView.h

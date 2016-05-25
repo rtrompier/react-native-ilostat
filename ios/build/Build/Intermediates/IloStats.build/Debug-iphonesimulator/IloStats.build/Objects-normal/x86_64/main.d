@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/ios/IloStats/main.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/ios/IloStats/AppDelegate.h
+dependencies: /Users/rtrompier/Workspace/ilo-stats/ios/IloStats/main.m \
+  /Users/rtrompier/Workspace/ilo-stats/ios/IloStats/AppDelegate.h

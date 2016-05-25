@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTTextField.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTTextField.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTTextField.m \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTTextField.h \
   ../../React/Views/RCTComponent.h ../../React/Base/RCTConvert.h \
   ../../React/Layout/Layout.h ../../React/Views/RCTAnimationType.h \
   ../../React/Views/RCTBorderStyle.h \

@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTShadowRawText.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTShadowRawText.m \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
   ../../React/Views/RCTShadowView.h ../../React/Layout/Layout.h \
   ../../React/Views/RCTComponent.h ../../React/Base/RCTRootView.h \
   ../../React/Base/RCTBridge.h ../../React/Base/RCTBridgeDelegate.h \

@@ -1,7 +1,8 @@
 /**
  * Created by rtrompier on 30/03/16.
  */
-import React, {StyleSheet, Text, View, ListView, ScrollView, Navigator, RefreshControl, TouchableHighlight} from 'react-native';
+import React, { Component } from 'react';
+import {StyleSheet, Text, View, ListView, ScrollView, Navigator, RefreshControl, TouchableHighlight} from 'react-native';
 import GiftedListView from 'react-native-gifted-listview';
 import CountriesService from '../../services/CountriesService';
 import DetailIndicator from './DetailIndicator';

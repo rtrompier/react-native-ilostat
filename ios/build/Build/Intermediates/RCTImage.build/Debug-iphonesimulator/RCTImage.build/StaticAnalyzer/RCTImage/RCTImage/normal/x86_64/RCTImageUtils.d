@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Image/RCTImageUtils.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Image/RCTImageUtils.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTImageUtils.m \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTImageUtils.h \
   ../../React/Base/RCTDefines.h \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Image/RCTResizeMode.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Image/RCTResizeMode.h \
   ../../React/Base/RCTConvert.h ../../React/Layout/Layout.h \
   ../../React/Views/RCTAnimationType.h \
   ../../React/Views/RCTBorderStyle.h \

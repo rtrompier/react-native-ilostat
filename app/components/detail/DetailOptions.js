@@ -1,7 +1,8 @@
 /**
  * Created by rtrompier on 30/03/16.
  */
-import React, {StyleSheet, Text, View, Navigator, TouchableWithoutFeedback} from 'react-native';
+import React, { Component } from 'react';
+import {StyleSheet, Text, View, Navigator, TouchableWithoutFeedback} from 'react-native';
 import TranslationService from '../../services/TranslationService';
 import FilterService from '../../services/FilterService';
 import {RadioButtons} from 'react-native-radio-buttons'
@@ -70,7 +71,7 @@ class DetailOptions extends React.Component {
         this.setState({
             checkListOption
         });
-        
+
         Actions.pop();
         Actions.refresh();
     }

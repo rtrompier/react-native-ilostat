@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTTextView.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTTextView.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTTextView.m \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTTextView.h \
   ../../React/Views/RCTView.h ../../React/Views/RCTBorderStyle.h \
   ../../React/Views/RCTComponent.h ../../React/Views/RCTPointerEvents.h \
   ../../React/Views/UIView+React.h ../../React/Base/RCTConvert.h \
@@ -12,5 +12,5 @@ dependencies: \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTFrameUpdate.h \
   ../../React/Base/RCTInvalidating.h \
   ../../React/Base/RCTJavaScriptExecutor.h \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTText.h \
   ../../React/Base/RCTUtils.h

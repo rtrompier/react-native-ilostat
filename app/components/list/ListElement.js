@@ -1,7 +1,8 @@
 /**
  * Created by rtrompier on 09/03/16.
  */
-import React, {StyleSheet, Image, Text, View, ListView, TouchableHighlight, Linking} from 'react-native';
+import React, { Component } from 'react';
+import {StyleSheet, Image, Text, View, ListView, TouchableHighlight, Linking} from 'react-native';
 import FilterService from '../../services/FilterService';
 import {Actions} from 'react-native-router-flux';
 

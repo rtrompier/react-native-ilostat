@@ -1,7 +1,8 @@
 /**
  * Created by rtrompier on 09/03/16.
  */
-import React, {StyleSheet, Text, View, TouchableHighlight, Navigator} from 'react-native';
+import React, { Component } from 'react';
+import {StyleSheet, Text, View, TouchableHighlight, Navigator} from 'react-native';
 import {Scene, Router, Actions} from 'react-native-router-flux';
 
 import List from './list/List';

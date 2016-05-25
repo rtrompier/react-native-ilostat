@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/ios/IloStatsTests/IloStatsTests.m \
+  /Users/rtrompier/Workspace/ilo-stats/ios/IloStatsTests/IloStatsTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h \

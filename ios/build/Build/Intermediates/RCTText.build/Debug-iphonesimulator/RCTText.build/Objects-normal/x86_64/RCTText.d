@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTText.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTText.h \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native/Libraries/Text/RCTShadowText.h \
   ../../React/Views/RCTShadowView.h ../../React/Layout/Layout.h \
   ../../React/Views/RCTComponent.h ../../React/Base/RCTRootView.h \
   ../../React/Base/RCTBridge.h ../../React/Base/RCTBridgeDelegate.h \

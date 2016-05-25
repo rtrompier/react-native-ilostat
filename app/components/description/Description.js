@@ -1,7 +1,8 @@
 /**
  * Created by rtrompier on 30/03/16.
  */
-import React, {StyleSheet, Text, View, ListView, ScrollView, Navigator} from 'react-native';
+import React, { Component } from 'react';
+import {StyleSheet, Text, View, ListView, ScrollView, Navigator} from 'react-native';
 
 const styles = StyleSheet.create({
     container: {

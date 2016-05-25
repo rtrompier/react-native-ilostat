@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native-vector-icons/RNVectorIconsManager/RNVectorIconsManager.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/node_modules/react-native-vector-icons/RNVectorIconsManager/RNVectorIconsManager.h \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native-vector-icons/RNVectorIconsManager/RNVectorIconsManager.m \
+  /Users/rtrompier/Workspace/ilo-stats/node_modules/react-native-vector-icons/RNVectorIconsManager/RNVectorIconsManager.h \
   ../react-native/React/Base/RCTBridgeModule.h \
   ../react-native/React/Base/RCTDefines.h \
   ../react-native/React/Base/RCTLog.h \

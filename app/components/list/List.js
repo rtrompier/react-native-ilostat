@@ -1,7 +1,8 @@
 /**
  * Created by rtrompier on 30/03/16.
  */
-import React, {StyleSheet, Text, View, ListView, Navigator, RefreshControl} from 'react-native';
+import React, { Component } from 'react';
+import {StyleSheet, Text, View, ListView, Navigator, RefreshControl} from 'react-native';
 import ListElement from './ListElement';
 import CountriesService from '../../services/CountriesService';
 import TranslationService from '../../services/TranslationService';

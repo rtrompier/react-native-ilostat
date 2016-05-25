@@ -1,7 +1,8 @@
 /**
  * Created by rtrompier on 30/03/16.
  */
-import React, {Component,Dimensions,ScrollView,StyleSheet,View} from 'react-native';
+import React, { Component } from 'react';
+import {Dimensions,ScrollView,StyleSheet,View} from 'react-native';
 import RNChart from 'react-native-chart';
 
 const { width } = Dimensions.get('window');

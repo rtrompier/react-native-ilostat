@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/ios/IloStats/AppDelegate.m \
-  /Users/rtrompier/Workspace/ilo-stats/IloStats/ios/IloStats/AppDelegate.h \
+  /Users/rtrompier/Workspace/ilo-stats/ios/IloStats/AppDelegate.m \
+  /Users/rtrompier/Workspace/ilo-stats/ios/IloStats/AppDelegate.h \
   ../node_modules/react-native/React/Base/RCTRootView.h \
   ../node_modules/react-native/React/Base/RCTBridge.h \
   ../node_modules/react-native/React/Base/RCTBridgeDelegate.h \
