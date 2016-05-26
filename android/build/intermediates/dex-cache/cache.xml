@@ -2,158 +2,151 @@
 <items version="2" >
 
     <item
-        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp/1.2.0/6c5c9380e245c4ff5be2b2a49dcbb0200c39798e/stetho-okhttp-1.2.0.jar"
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/stetho-okhttp-1.2.0-7571bae7f878b75e076889c5eaaa28ffc4c76ee3.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-527dfa10c51be5338352fff003ee16730231adf6.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-03fff80134b00870741c38c3493ac57e76b13525.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-1bc0ad39b615182aaf2a12a7980624508a1be5f3.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0cc39db3c06f47dee223c382f78e2bff90b74274">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-8a19e448c8c0db30e40f7134af95162aa6e00d12.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-74c7db5b375b702709422062f1c90471ce95c269.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-deb28eb08f20c8d2536c0e27f76ab37793de1288.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-085012e5dec8822bb72e85bd2ae215ef7cd06295.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-b8d23bda13a16eb0db24879aba4d8503bc938a1d.jar" />
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-3cc3207a5f9b33e3185364fb0b6377c8ee127766.jar" />
     </item>
     <item
         jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-83cbd8867bbfafb64844edcdc4bcc0a8099d3359.jar" />
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-83cbd8867bbfafb64844edcdc4bcc0a8099d3359.jar" />
     </item>
     <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-d0c284abb60023b3492d8d1da5249aff7dbcd7c6.jar" />
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-1bc0ad39b615182aaf2a12a7980624508a1be5f3.jar" />
     </item>
     <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/IloStats/react-native-vector-icons/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-071153069c407a2848b59fa622f4db54fd80a730.jar" />
+        sha1="79ff4afd2d729048e97ed76d2dd41554c8d3b81d">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-64aba739682780023cc9b8885da493fd6730f1cb.jar" />
     </item>
     <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-52577b2c21b8abb41be5dc1d0b8a7bac693c0801.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-bbb84ac2a46944a338cc63ec832c1fe11eae14a1.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5b2f15bec1db9a9fddabbc29cf0172333040d7d7">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-e44fccb9cf879a0e6bcb33297a65f44be438edad.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-c3c1efe11a4fba6d5fbf4203964e854893dbb229.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-2026c52217b1b8610c150e38cf241fb500f50bbf.jar" />
-    </item>
-    <item
-        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-f9fa34b45001221daf1e85519bd1c5a2d9cb728b.jar" />
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-c03615cab0a10cec57f34e002762bb2459f22f25.jar" />
     </item>
     <item
         jar="/Users/rtrompier/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-b42413552361fee84c78cf0de0ed670f37d3d354.jar" />
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-b42413552361fee84c78cf0de0ed670f37d3d354.jar" />
     </item>
     <item
-        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.2.0/1d6cdb8ce8185b8b23213fad48a83987fb6d2d67/stetho-1.2.0.jar"
+        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1d6cdb8ce8185b8b23213fad48a83987fb6d2d67">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/stetho-1.2.0-4fc88743ebeb7d3d321b951688f59977cad7ffac.jar" />
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-74c7db5b375b702709422062f1c90471ce95c269.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-deb28eb08f20c8d2536c0e27f76ab37793de1288.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-2f83bc1955bc392f9f575e208f4fd21afb4aadd9.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-96fd7af9d0236d01ec11beecc60d67140d8566f8.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-e21bb865e87e57f8215c853acc56e1241b02bc96.jar" />
     </item>
     <item
         jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-d6e9086434bf98bd13279b8619fedb48b51242dc.jar" />
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-d6e9086434bf98bd13279b8619fedb48b51242dc.jar" />
     </item>
     <item
-        jar="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
-        <dex dex="/Users/rtrompier/Workspace/ilo-stats/IloStats/android/app/build/intermediates/pre-dexed/debug/classes-501b17d518bcb8858863f00597736143e00b4fd8.jar" />
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-0c151c91a46d1c08e2d0eb762098e7ef5d675fac.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.25.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5453085bfeee55acfa0235a5dc1477e9126013db">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-ac6558e4a885b830933f2fb2a1217f5213731741.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-68efdec03c918bf7376b61e04a0d103c8b63c52f.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-085012e5dec8822bb72e85bd2ae215ef7cd06295.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-52772b6dd7c59c590ecee1abacce523d8306fc0d.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.25.1/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="12b559f4bf81fa45adf2235efa0c2fbd9d933f1e">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-5e6772ba22cc4c01c56b7bbb07f741cf5216aacd.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/IloStats/react-native-i18n/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01e55c7d13eb438b2a657a531790676ea74ce301">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-d4e7d3a0b41cc14f47af9907cec1d65f40af4acf.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-f9fa34b45001221daf1e85519bd1c5a2d9cb728b.jar" />
+    </item>
+    <item
+        jar="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/rtrompier/Workspace/ilo-stats/android/app/build/intermediates/pre-dexed/debug/classes-c0f50e4d493917c4424586827c1a8d4fd99600a3.jar" />
     </item>
 
 </items>

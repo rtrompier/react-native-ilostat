@@ -20,13 +20,14 @@ const styles = StyleSheet.create({
     }
 });
 
-var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 class List extends React.Component{
     constructor() {
         super();
 
         //Init Datasource
         this.state = {
+            currentLang: TranslationService.getCurrentLang(),
             countries: ds.cloneWithRows([])
         };
     }
@@ -35,21 +36,30 @@ class List extends React.Component{
         this._loadCountries();
     }
 
+    componentWillUpdate(){
+        if(this.state.currentLang !== TranslationService.getCurrentLang()){
+            this._loadCountries();
+        }
+    }
+
     _loadCountries(){
         this.setState({
             isLoading:true,
+            currentLang : TranslationService.getCurrentLang(),
             countries: ds.cloneWithRows([])
         });
 
         return new Promise((resolve) => {
-            CountriesService.list().then(c => {
-                this.setState({
-                    countries: ds.cloneWithRows(c),
-                    isLoading: false
-                });
+            setTimeout(() => {
+                CountriesService.list().then(c => {
+                    this.setState({
+                        countries: ds.cloneWithRows(c),
+                        isLoading: false
+                    });
 
-                resolve();
-            });
+                    resolve();
+                });
+            }, 300);
         });
     }
 
@@ -58,6 +68,9 @@ class List extends React.Component{
             <ListView
                 style={{marginTop: Navigator.NavigationBar.Styles.General.NavBarHeight+20}}
                 dataSource={this.state.countries}
+                initialListSize={1}
+                pageSize={200}
+                enableEmptySections={true}
                 renderRow={(rowData) => <ListElement country={rowData}></ListElement>}
                 renderSeparator={(sectionID, rowID) => <View key={`${sectionID}-${rowID}`} style={styles.separator} />}
                 refreshControl={

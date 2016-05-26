@@ -3,8 +3,8 @@
  */
 import React, { Component } from 'react';
 import {StyleSheet, Text, View, ListView, ScrollView, TouchableHighlight} from 'react-native';
-var Actions = require('react-native-router-flux').Actions;
 import FilterService from '../../services/FilterService';
+let Actions = require('react-native-router-flux').Actions;
 
 const styles = StyleSheet.create({
     container: {
@@ -45,7 +45,6 @@ class DetailIndicator extends React.Component{
             description
         };
 
-        //console.log('DetailIndicator', value, this.state.indicator.indicator.code);
     }
 
     _handleDescription(){

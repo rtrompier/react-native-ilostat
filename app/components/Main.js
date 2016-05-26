@@ -26,7 +26,6 @@ class Main extends React.Component{
 
     
     _countries(){
-        console.log('_countries');
         Actions.list();
     }
 

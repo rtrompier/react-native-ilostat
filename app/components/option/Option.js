@@ -4,7 +4,8 @@
 import React, { Component } from 'react';
 import {StyleSheet, Text, View, Navigator, TouchableWithoutFeedback} from 'react-native';
 import TranslationService from '../../services/TranslationService';
-import {RadioButtons} from 'react-native-radio-buttons'
+import {RadioButtons} from 'react-native-radio-buttons';
+import {Actions} from 'react-native-router-flux';
 
 const styles = StyleSheet.create({
     viewContainer: {
@@ -51,7 +52,6 @@ const styles = StyleSheet.create({
 class Option extends React.Component {
     constructor(props) {
         super(props);
-        debugger;
 
         this.options = TranslationService.getLangs();
         let checkListOption = this.options.filter((c) => {
@@ -71,15 +71,12 @@ class Option extends React.Component {
             checkListOption
         });
 
-        debugger;
-
-        //Actions.pop();
-        //Actions.refresh();
+        Actions.pop();
     }
 
     renderOption(option, selected, onSelect, index) {
-        var style;
-        var checkMark;
+        let style;
+        let checkMark;
 
         if (index > 0) {
             style = [styles.baseStyle, {

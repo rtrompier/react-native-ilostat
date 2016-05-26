@@ -2,8 +2,8 @@
  * Created by rtrompier on 01/04/16.
  */
 import I18n from 'react-native-i18n';
-var fr = require('../i18n/fr.json');
-var en = require('../i18n/en.json');
+let fr = require('../i18n/fr.json');
+let en = require('../i18n/en.json');
 
 let instance = null;
 

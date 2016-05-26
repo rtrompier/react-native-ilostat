@@ -73,12 +73,11 @@ class DetailOptions extends React.Component {
         });
 
         Actions.pop();
-        Actions.refresh();
     }
 
     renderOption(option, selected, onSelect, index) {
-        var style;
-        var checkMark;
+        let style;
+        let checkMark;
 
         if (index > 0) {
             style = [styles.baseStyle, {
@@ -122,8 +121,6 @@ class DetailOptions extends React.Component {
                         renderContainer={ this.renderContainer }
                     />
                 </View>
-
-                <Text>{FilterService.getCurrentYear()}</Text>
             </View>
         )
     }

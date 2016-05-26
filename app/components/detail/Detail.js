@@ -34,72 +34,53 @@ const styles = StyleSheet.create({
     }
 });
 
+let ds = new ListView.DataSource({
+    rowHasChanged: (r1, r2) => r1 !== r2,
+    sectionHeaderHasChanged: (s1, s2) => s1 !== s2
+});
+
 class Detail extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
             ...props,
+            dataSource: ds.cloneWithRowsAndSections({}),
+            isLoading: true
         };
     }
 
     componentDidMount() {
-        console.log('componentDidMount');
-
         Actions.refresh({
             title: this.state.label,
             rightTitle: FilterService.getCurrentYear(),
         });
-    }
 
-    componentWillMount(){
-        console.log('componentWillMount');
-    }
-
-    shouldComponentUpdate(nextProps, nextState){
-        console.log('shouldComponentUpdate');
-
-
-        this.forceUpdate();
-
-        /*Actions.refresh({
-            title: this.state.label,
-            rightTitle: FilterService.getCurrentYear(),
-        });*/
-
-        return false;
+        this.load();
     }
 
     componentWillUpdate(){
-        console.log('componentWillUpdate');
+        if(this.state.rightTitle !== FilterService.getCurrentYear()){
+            Actions.refresh({
+                rightTitle: FilterService.getCurrentYear(),
+            });
+
+            this.load();
+        }
     }
 
-    _onFetch(page = 1, callback, options) {
-        console.log('Current country', FilterService.getCurrentCountry());
-        console.log('Current year', FilterService.getCurrentYear());
-
-        Actions.refresh({
-            title: this.state.label,
+    load() {
+        this.setState({
+            dataSource: ds.cloneWithRowsAndSections({}),
+            isLoading: true,
             rightTitle: FilterService.getCurrentYear(),
         });
 
-        var rows = {};
-
-        if(FilterService.getCurrentYear() == '2011'){
-            var rows = [{
-                    
-            },{
-
-            }];
-
-            callback(rows, {
-                allLoaded: true, // the end of the list is reached
-            });
-
-        }else{
+        return new Promise((resolve) => {
+            let rows = {};
             setTimeout(() => {
                 CountriesService.detail(FilterService.getCurrentCountry()).then(d => {
-                    var lastSection = null;
+                    let lastSection = null;
                     for(row of d.rows){
                         if(row.subject != ''){
                             lastSection = row.subject;
@@ -112,12 +93,15 @@ class Detail extends React.Component {
                         rows[lastSection].push(row);
                     }
 
-                    callback(rows, {
-                        allLoaded: true // the end of the list is reached
+                    this.setState({
+                        dataSource : ds.cloneWithRowsAndSections(rows),
+                        isLoading: false
                     });
+
+                    resolve();
                 });
-            }, 500);
-        }
+            }, 300);
+        });
     }
 
     /**
@@ -138,7 +122,6 @@ class Detail extends React.Component {
      */
     _renderRowView(rowData, sectionId, rowID) {
         let key = 'row_' + sectionId + '_' + rowID;
-        console.log('_renderRowView');
         return (
             <View key={key}>
                 <DetailIndicator indicator={rowData}></DetailIndicator>
@@ -159,28 +142,31 @@ class Detail extends React.Component {
     render() {
         return (
             <View style={styles.container}>
+
                 <View style={styles.header}>
                     <Text style={{flex:1}}>{TranslationService.translate('indicator')}</Text>
                     <Text>{TranslationService.translate('value')}</Text>
                 </View>
 
-                <GiftedListView
-                    rowView={this._renderRowView}
-                    onFetch={this._onFetch.bind(this)}
-                    sectionHeaderView={this._renderSectionHeaderView.bind(this)}
+                <ListView
+                    dataSource={this.state.dataSource}
+                    initialListSize={1}
+                    pageSize={2000}
+                    renderSectionHeader={this._renderSectionHeaderView.bind(this)}
+                    renderRow={this._renderRowView.bind(this)}
+                    enableEmptySections={true}
                     renderSeparator={this._renderSeparatorView.bind(this)}
-                    firstLoader={true} // display a loader for the first fetching
-                    refreshable={true} // enable pull-to-refresh for iOS and touch-to-refresh for Android
-                    withSections={true} // enable sections
-                    pagination={false} // enable infinite scrolling using touch to load more
-                    customStyles={{
-                        paginationView: {
-                            backgroundColor: 'transparent',
-                        },
-                     }}
-                    refreshableTintColor="#50a4ff"
+                    refreshControl={
+                        <RefreshControl
+                            refreshing={this.state.isLoading}
+                            onRefresh={this.load.bind(this)}
+                            tintColor="#007AFF"
+                            title="Loading..."
+                            colors={['#ff0000', '#00ff00', '#0000ff']}
+                            progressBackgroundColor="#007AFF"
+                        />
+                    }
                 />
-
 
             </View>
         )
